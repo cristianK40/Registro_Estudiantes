@@ -1,0 +1,15 @@
+@Registro_Estudiantes_HostAddress = http://localhost:5137
+
+PUT {{Registro_Estudiantes_HostAddress}}/api/Profesores
+Accept: application/json
+###
+PUT {{Registro_Estudiantes_HostAddress}}/api/Materias
+Accept: application/json
+
+###
+GET {{Registro_Estudiantes_HostAddress}}/api/Materias
+Accept: application/json
+
+###
+POST {{Registro_Estudiantes_HostAddress}}/api/Estudiante
+Accept: application/json
